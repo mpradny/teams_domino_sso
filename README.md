@@ -21,6 +21,8 @@ If the user is already authenticated with Domino server, it just redirects the u
  -- SameSite setting 
  - install the Teams app locally for testing and then publish it
 
+More detailed setup instructions - https://www.pradny.com/2020/10/hcl-domino-sso-with-microsoft-teams.html
+
 ### Known limitations
  - SSO is implemented only for multi-server Domino SSO using LTPA token
  - AAD upn is used as search key in ($Users) view of main Domino Address book, other logic needs code customizations

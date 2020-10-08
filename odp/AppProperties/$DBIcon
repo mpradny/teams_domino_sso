@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='11.0' maintenanceversion='1.0'
+ replicaid='C12585FA0022D0A6'>
+<noteinfo noteid='216' unid='2F584113216758D5C12585FB002F998F' sequence='1'>
+<created><datetime dst='true'>20201008T103955,03+02</datetime></created>
+<modified><datetime dst='true'>20201008T103955,07+02</datetime></modified>
+<revised><datetime dst='true'>20201008T103955,06+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20201008T103955,06+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20201008T103955,06+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Administrator/O=MPR11</name></updatedby>
+<wassignedby><name>CN=Administrator/O=MPR11</name></wassignedby>
+<item name='$TITLE'><text>$DBIcon</text></item>
+<item name='$Flags'><text>34Ci~Q</text></item>
+<item name='$ImagesWide' sign='true'><number>1</number></item>
+<item name='$ImagesHigh' sign='true'><number>1</number></item>
+<item name='$ImagesColorize' sign='true'><number>0</number></item>
+<item name='$FileSize' sign='true'><number>1256</number></item>
+<item name='$ImageData' sign='true'>
+<rawitemdata type='1'>
+mQAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAH0AHAAAAAIAAAAAAOgEAAABAAAAAQAAAAAAAAB8
+APIEAADoBOgEiVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEr0lEQVR4nL2Xa2hb
+ZRjH32KZUuY6BwpWcDDHLogfFNxY7QRRKkpBti/SiTD8oh8E/SCUDd3X1vl9Zs5p1V7Xi1ttwwa9
+oGXTTZP0kuXSXNvcm7RpmzSp7ezj+z99z/Gc9Jwkc+ILPxKe//P8/0/T5k3K2L87Ozj7OAcE+0Tt
+fzkHGhoajthstvNOp9ME8Bw1scx/dqqY9qd8knNoaGjo4/X19czm5iapQQ0aekSv+tWput/wg01N
+Ta9ZLJbzdrvdBMxm80ctLS2N9+79RWAksUbnHFkJPJfr6EGvPAcPeMGz3PBDY2Nj5/L5fGZjY4PU
+5HK5LB4v+1eJ9c9rQE3dowZe8BSvTtHzWHNzc+Of6+sEeuay9Jl9WWJ+dY3k+u4BhCY0oCbr6JXn
+vvZllDq8kVFsgWcdDsf1tbU1+nRqiVhvTGGvOUHxbJ6gqetq3Omc1LP7WlxT/8K5LM3BGxnFFngh
+Eo0Gcvk8vTyaJNYT03AjnCFo1Vfj2zTUoKGnUIMXNH8gYEdGYejD7J+/2KOhUDi4upqj4yP8Zb4S
+1XDRvUTQ8GikXQ+tbNP2DsYlzePxOnjGi6o8ZLPDVpvtS4vVavplfLw1Fo8nM9ksfT69QKw7rPD0
+QJTC6QxBA+bZJTprTUnguVxHD3rVs/CCBm9kIAuZyMYCz69kMqRHh2eRzliTEqHFFaVuDqZ1kXX0
+ynPwMPJHNhY4try8QuDMH/Pb6JhZIFkHFxwpYp1zugwGFjW9mNXzlHVkY4G69NISAdYZ1KXuRpiC
+ybTU85MvZdgHDT3oxYxRn5LHs6UFFtNpAqwjYMibw2GpZ8CbNOyBhh70FvNS8uQFUguLBKq7eUO7
+3xBbOEXXPPOGOjT0FPNAhpwnL1Brm5hwJVMpGvUn6CVzkKq7fMTavNu4OhOX0NNk/bu7MV0NnvBG
+BrKQiWzpbVhfX/9hKBzJJeaTJPP2yCyx7z0afnTFJArrar3VHt1Wh5faG1nIlN+G+CLxyjP793/Q
+29f382+3b/viiQT1OyN82K0BNb16KX3YEyV4whsZyEKmyGYVnEfY1sflCc570VicAGt1a+hzhCUK
+66V0xY97i4yDIrNCfSVXch7lvB6JxgiwVpeGHntIorBeSlf8uLfIqDT6MMJGdaFIhAD71qHhyvSc
+RGG9lK74bf3VVxiFKwvMhcIE2Dd3NXRPBSUK66V0xa/cBYJzIQLssl1D12RAorBeSlf8yl0gEJwl
+sKt1mtilKYVOm09CXSulw0P2K2cBnNrxm7dcvkCQTHc8dLTXrjA45aMOK79YLk3qAg096hl4wAue
+TFw8pc7hxlOnmhwuV87r91Mh7RZ+uXxl0wWa3gy84MnExVPq4FvKq3V1xz/p7eu/Mzw65gM3b/0a
+nfH6qO13/t6+aNUFGnrQK8/BA17wFN4lD35H+EfiOc5Jzjucd4/V1p51e7wEjnRNEDNZNKAm6+jF
+jJg9KbyqWBm/f/USuCZ3cfZwHue88UNb+4jTPUPFQA96xcwe4bHjfsKNFqrhnLhgMpltk1N5h8tN
+alCDxrau2poHDdQ7lcL4Lc5pzvsFnBZaDSty1T7oeYizk/OECHpKUCNqO0VP2edvSGmqBKEpwDoA
+AAAASUVORK5CYII=
+</rawitemdata></item>
+<item name='$MimeType' sign='true'><text>image/png</text></item>
+<item name='$FileModDT' sign='true'><datetime dst='true'>20201007T174844,78+02</datetime></item>
+<item name='$ImageNames' sign='true'><text>C:\Temp\Notes_Windows_32x32.png</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item></note>
+

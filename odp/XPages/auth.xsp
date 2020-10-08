@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+	
+	<xp:this.beforePageLoad><![CDATA[#{javascript:viewScope.dest = param['dest'];
+if (!(viewScope.dest)) {
+	viewScope.dest = '/';
+}}]]></xp:this.beforePageLoad>
+	
+	
+	<xp:panel loaded="${session.effectiveUserName =='Anonymous'}" style="text-align:center">
+		<script src= 'MicrosoftTeamsMod.min.js'></script>
+		<xp:panel id="authPanel">
+			authenticating ...
+			<xp:messages id="errors"></xp:messages>
+			<xp:inputHidden id="aadToken" value="#{viewScope.aadToken}"></xp:inputHidden>
+			<xp:button value="Authenticate" id="processToken" style="display:none">
+				<xp:eventHandler event="onclick" submit="true"
+	    		refreshMode="partial" refreshId="authPanel">
+	    		<xp:this.action><![CDATA[#{javascript:var auth = new to.pris.teams.Authenticator();
+					auth.authenticate(viewScope.aadToken, viewScope.dest);}]]></xp:this.action>
+	    			</xp:eventHandler>
+	   		</xp:button>
+   		</xp:panel>
+
+
+
+		<span id='clientError' style="display:none;color:red;font-size:large"></span>
+		
+		<xp:eventHandler event="onClientLoad" submit="false">
+			<xp:this.script><![CDATA[			
+			
+			var teamsInitialized = false;
+			microsoftTeams.initialize(function() {
+			  teamsInitialized = true;
+			});
+
+			setTimeout(function() {
+			   if(teamsInitialized) {
+			    // teams running
+			   } else {
+			    var clientError = document.getElementById('clientError')
+		  			clientError.textContent="Not running in Teams";
+		  			clientError.style.display='block'
+			   }
+			}, 1000);
+			
+				
+		    var authTokenRequest = {
+		  		successCallback: function(result) { 		  				
+				  	document.getElementById('#{id:aadToken}').value=result;
+				  	document.getElementById('#{id:processToken}').click();
+		  	 	},
+		  		failureCallback: function(error) { 		  			
+		  			var clientError = document.getElementById('clientError')
+		  			clientError.textContent=error;
+		  			clientError.style.display='block'
+		  		},
+			};
+
+
+			microsoftTeams.authentication.getAuthToken(authTokenRequest);
+			
+			]]></xp:this.script>
+		</xp:eventHandler>
+	</xp:panel>
+	
+	<xp:panel loaded="${session.effectiveUserName != 'Anonymous'}" id="authenticated" style="text-align:center">
+		redirecting ...
+		<xp:link text="#{dest}" value="#{dest}"></xp:link>
+		
+		<xp:eventHandler event="onClientLoad" submit="false">
+			<xp:this.script><![CDATA[window.location="#{javascript:viewScope.dest}"]]></xp:this.script>
+		</xp:eventHandler>
+	</xp:panel>
+	
+</xp:view>

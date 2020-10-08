@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='11.0'
  maintenanceversion='1.0' replicaid='C12585FA0022D0A6'>
-<noteinfo noteid='11e' unid='67C6E2242DEEA07AC12585FA0022D0A9' sequence='3'>
+<noteinfo noteid='11e' unid='67C6E2242DEEA07AC12585FA0022D0A9' sequence='5'>
 <created><datetime dst='true'>20201007T082016,41+02</datetime></created>
-<modified><datetime dst='true'>20201007T082016,44+02</datetime></modified>
-<revised><datetime dst='true'>20201007T082016,43+02</datetime></revised>
-<lastaccessed><datetime dst='true'>20201007T082016,43+02</datetime></lastaccessed>
+<modified><datetime dst='true'>20201008T103859,16+02</datetime></modified>
+<revised><datetime dst='true'>20201008T103859,15+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20201008T103859,15+02</datetime></lastaccessed>
 <addedtofile><datetime dst='true'>20201007T082016,41+02</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Administrator/O=MPR11</name></updatedby>
 <item name='IconBitmap' summary='true'>
@@ -23,8 +23,11 @@ d30fAAAAAPHXd33Xd3d913d9HwAAAADx13d913d3fdd3fR8AAAAA8R3d0dd3d30d3dEfAAAAAA8R
 EREdd3fRERER8AAAAAAA////Ed3dEf///wAAAAAAAAAAAPERER8AAAAAAAAAAAAAAAAP///wAAAA
 AAAAUEECICABAAD/////+A4DgA==
 </rawitemdata></item>
-<item name='$Flags'><text>J7</text></item>
 <item name='$Daos'><text>0</text></item>
 <item name='$LargeSummary'><text>0</text></item>
-<item name='$TITLE'><text>Teams SSO</text></item></note>
+<item name='$TITLE'><text>Teams SSO</text></item>
+<item name='$Flags'><text>J7F</text></item>
+<item name='$LaunchXPageRunOnServer'><text>0</text></item>
+<item name='$FlagsNoRefresh'><text/></item>
+<item name='$DefaultFrameset'><text>MainFS</text></item></note>
 

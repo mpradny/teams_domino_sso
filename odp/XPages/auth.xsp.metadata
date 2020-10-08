@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="C12585FA0022D0A6" version="11.0">
+<noteinfo noteid="1ae" sequence="102" unid="C684021E274C3524C12585FA002539B6">
+<created><datetime dst="true">20201007T084636,06+02</datetime></created>
+<modified><datetime dst="true">20201007T094105,99+02</datetime></modified>
+<revised><datetime dst="true">20201007T094105,98+02</datetime></revised>
+<lastaccessed><datetime dst="true">20201007T094105,98+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20201007T084636,06+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Administrator/O=MPR11</name></updatedby>
+<wassignedby><name>CN=Administrator/O=MPR11</name></wassignedby>
+<item name="$Flags"><text>gC~4K</text></item>
+<item name="$TITLE"><text>auth.xsp</text></item>
+
+
+
+<item name="$PublicAccess"><text>1</text></item>
+<item name="$DesignerVersion"><text>8.5.1</text></item>
+
+
+
+
+<item name="$FileNames" sign="true"><text>auth.xsp</text></item></note>

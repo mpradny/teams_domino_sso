@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="C12585FA0022D0A6" version="11.0">
+<noteinfo noteid="1ce" sequence="21" unid="EBA9EF8D0A954DD9C12585FA003DCE38">
+<created><datetime dst="true">20201007T131504,88+02</datetime></created>
+<modified><datetime dst="true">20201007T142056,53+02</datetime></modified>
+<revised><datetime dst="true">20201007T142056,52+02</datetime></revised>
+<lastaccessed><datetime dst="true">20201007T142056,52+02</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20201007T131504,88+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Administrator/O=MPR11</name></updatedby>
+<wassignedby><name>CN=Administrator/O=MPR11</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>to/pris/teams/AppConfBean.java</text></item>
+
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>to/pris/teams/AppConfBean.java</text></item>
+
+</note>

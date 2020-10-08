@@ -1,0 +1,29 @@
+<html>
+<head>
+	<script src="MicrosoftTeamsMod.min.js"></script>
+</head>
+	<body>
+		Tab content url:
+		<input id="url" />
+		<br />
+		Tab name:
+		<input id="tabName" value="Domino App Tab"/>
+		<script>
+			microsoftTeams.initialize();
+			
+			 microsoftTeams.settings.registerOnSaveHandler(function (saveEvent) {
+		            var location = window.location.href;
+		            var dest = document.getElementById("url").value;
+		            var newUrl = location.replace('config.html','auth.xsp?dest='+dest);
+		            var tabName = document.getElementById("tabName").value;
+				 	microsoftTeams.settings.setSettings({		                
+		                contentUrl: newUrl,		                
+		                suggestedDisplayName: tabName
+		            });
+		            saveEvent.notifySuccess();
+		        });
+			 
+			 microsoftTeams.settings.setValidityState(true);
+		</script>
+	</body>
+</html>
